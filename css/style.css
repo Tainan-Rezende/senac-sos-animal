@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+::selection {
+    color: black;
+    background-color: yellow;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #212529;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FFC107;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.title {
+    background: url(../img/animais.jpg) center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.titleOut {
+    background: url(../img/cta-bg.jpg)center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.top-nav {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.sponsor {
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    filter: grayscale(1);
+    transition: .5s ease-in-out;
+    opacity: 0.85;
+}
+
+.sponsor:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.projeto {
+    color: #555;
+}
+
+.adote {
+    background: url(../img/cta-bg.jpg) center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.fonte-1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fonte-2 {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.animais {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-ajudados {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.doacao {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adotar {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.foto_usuario {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.video-campanha {
+    width: 100%;
+    min-height: 70vh !important;
+}
+
+.mural-photo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.valores {
+    display: flex;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1150px) {
+    .bg-ajudados {
+        min-height: 50vh;
+    }
+
+    .video-campanha {
+        min-height: 40vh !important;
+    }
+}
+
+@media screen and (max-height: 860px) {
+    .video-campanha {
+        min-height: 50vh !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .bg-ajudados {
+        min-height: 35vh;
+    }
+}
